@@ -1,0 +1,237 @@
+/* main rules of the page*/
+body{font-family: sans-serif,"Freight Sans Bold", Helvetica, Arial;}
+.container{ width: 1170px; margin:0 auto; }
+.clear{clear:both;}
+/* main rules of the page*/
+
+/*header*/
+.header .slider{
+    height: 600px;
+    background-image: url(../images/8976.jpg);
+    background-size:cover;
+    text-align: center;
+    color:#ffffff;
+   
+}
+.header .slider .intro {padding-top:200px;}
+.header .slider .intro h1{
+    color:whitesmoke;
+    margin:0 auto;
+    width:600px;
+    border-top:4px solid whitesmoke;
+    border-bottom:3px solid whitesmoke;
+    font-size:50px;
+    padding: 5px 0;
+}
+.header .slider .intro button{
+    margin-top:30px;
+    background: none;
+    color:#ffffff;
+    font-size:20px;
+    border:2px solid #ffffff;
+    padding:10px 30px;
+}
+.header .slider .intro button:hover{
+    background:rgba(245, 245, 245, 0.473);
+    color:rgba(0, 0, 0, 0.63);
+    font-weight: bold;
+}
+.header .navbar{background-color:#1c2525;/* #252f31;*/ color:#F2EFEE; overflow:hidden; }
+.header .navbar  .logo{color:#ffffff;}
+.header .navbar  .logo #ff{background-color: #4b5557; padding: 3px 8px;}
+.header .navbar  .logo #rr{color:#3cd487;}
+.header .navbar ul{ float:right; list-style-type:none; padding:10px;}
+.header .navbar ul li{ font-weight: bold; display:inline; padding:10px ;}
+.header .navbar ul li a{ color:white; text-decoration:none; }
+.header .navbar ul li a:hover,.header .navbar ul .home a{ color:#07ff83;}
+.header .navbar ul li:hover{background-color: rgba(129, 125, 125, 0.247); border-radius: 8px;}
+/*header*/
+
+/*features*/
+.features{ overflow:hidden; padding: 40px 0 50px;}
+.features .container>div{width:33.3%;}
+/*features*/
+
+/*about me*//*about me*//*about me*//*about me*//*about me*//*about me*/
+.about_me{background:#f2f2f2; overflow:hidden; }
+.about_me .image{ width:40%;/*of the about_me div*/}
+.about_me .info{float: right; width:56%;}
+.about_me .image img{ width:100%;/*of the image div*/}
+.about_me .info h2{padding:10px 0 0;}
+.about_me .info >p:last-of-type{margin-top: 20px;}
+.about_me .info .ddivvs {overflow:hidden; width:100%;}
+.about_me .info .ddivvs .iconandtext {
+    width:48%;
+    margin-top: 10px;
+    margin-right: 10px;
+    overflow:hidden;
+    float:left;
+}
+.about_me .info .ddivvs .iconandtext .icon{float:left; margin-right: 18px;  margin-top:15px;}
+.about_me .info .ddivvs .iconandtext .text{float:left; width:260px;}
+.about_me .info .ddivvs .iconandtext .text h3{margin:0;}
+.about_me .info .ddivvs .iconandtext .text p{margin:5px 0 25px;}
+.about_me .info .ddivvs .iconandtext .icon img{width:30px;height:30px;}
+/*about me*//*about me*//*about me*//*about me*//*about me*//*about me*//*about me*/
+
+/*my skills*/
+.my_skills{padding:40px 0px 60px;overflow:hidden;}
+.my_skills .skills , .my_skills .progress{ width:45%;}
+.my_skills .skills{margin:0 5% 0 4% ;}
+.my_skills .progress .tech #back{background-color:rgb(223, 235, 235);height:28px;}
+.my_skills .progress .tech #back span{
+    background-color:#2dcc70;
+    color:white;
+    font-weight: bold;
+    display:block;
+    height:28px;
+    line-height:28px;
+    text-align:right;
+}
+/*my skills*/
+
+/*resume*/
+.resume{
+    padding:40px 0px 60px;
+    overflow:hidden;
+    background:#f2f2f2;    
+    text-align:center;    
+}
+/*resume*/
+
+/* My Education*/
+.my_education{
+    padding:40px 0px 0px;
+    overflow:hidden;
+}
+.my_education hr{
+    margin:20px 0;
+    background-color:rgba(132, 138, 138, 0.336);
+    height:1px;
+    border:0;
+}
+.my_education .container >hr{margin:25px 0 0;}
+.my_education .education , .my_education .pro{width:45%;}
+.my_education .education{margin:0 5% 0 4% ;}
+.my_education .education h2{margin-top:0;}
+.my_education .pro{margin-top:35px}
+.my_education .pro .diploma {margin-bottom:70px}
+.my_education .pro .diploma h3{margin-bottom:12px;}
+.my_education .pro .diploma span:first-of-type{color:rgb(132, 138, 138);display:block;}
+.my_education .pro .diploma span:last-of-type{
+    display:inline-block;
+    background:#2dcc70;
+    color:white;
+    padding:5px 10px;
+    margin-top:10px ;
+}
+/* My Education*/
+
+
+/*testimonials*/
+.testimonials{padding:60px 0px 50px; background:#f2f2f2; text-align:center; }
+.testimonials q{
+    color:#888888;
+    font-weight:bold;
+    line-height:1.7;
+    font-style:italic;
+    font-size:18px;
+}
+.testimonials ul{list-style-type:none;padding:0;margin-top:30px;}
+.testimonials ul li{
+    width:10px;
+    height:10px;
+    border:2px solid #2DCC70;
+    display: inline-block;
+    border-radius:10px;
+    cursor: pointer;
+}
+.testimonials ul li:hover,.testimonials ul li.act{background-color:#2DCC70 ;}
+/*testimonials*/
+
+/*protfolio*/
+.protfolio{padding:30px 0px 50px; overflow:hidden;}
+.protfolio h2,.protfolio p{ text-align:center;}
+.protfolio .text{margin:50px 0}
+.protfolio .our_work {overflow:hidden;}
+.protfolio .our_work>div{
+    width:33.333%;
+    margin-bottom:10px;
+    float:left;
+    height:380px;
+}
+.protfolio .our_work >div img{
+    width:92%;
+    margin:10px;
+    padding:1px;
+    background-color: rgb(243, 235, 235);
+    border:1px ridge #ccc;
+}
+/*protfolio*/
+
+/*contact me*/
+.contact{
+    background-color:#252f31;
+    padding:50px 0 70px ;
+    overflow:hidden;
+    color:#f5f4f9;
+}
+.contact .info,.contact .form{width:45%;}
+.contact .info{margin:0 40px 0 5%;}
+.contact .info h2{color:#ecebeb}
+.contact .info span{display:block; margin-bottom:10px; color:#6e7275;}
+.contact .info span b{color:#D1D6DA;}
+.contact .form{padding-top: 22px;}
+.contact .form label{display:block ;color:#D1D6DA;}
+.contact .form input[type="text"]{
+    background:#4B5557;
+    border:0;
+    margin:10px 0 20px;
+    padding:10px;
+    width:80%;
+}
+.contact .form textarea{
+    background:#4B5557;
+    border:0;
+    margin:10px 0 20px;
+    padding:10px;
+    width:80%;
+    height:300px;
+
+}
+.contact .form input[type="submit"]{
+    background:#191E22;
+    padding:10px 20px;
+    border:0;
+    color:#F5F4F9;
+}
+/*contact me*/
+
+/*FOOTER*/
+.footer{
+    background:#191e22;
+    overflow:hidden;
+    text-align: center;
+}
+/* .footer p{color:#3b4044; float:left; margin: 50px 0 0 300px;}
+.footer img{width: 100px;height:100p; float:right; margin-right: 100px;} */
+.footer p{margin-bottom:5px; }
+.footer i{margin:0 4px 10px 0;color:rgb(202, 201, 201);}
+/*FOOTER*/
+
+/*framework*/
+.frame-float{float:left}
+p{color:rgb(132, 138, 138); line-height: 1.7; }
+h2,h3{color:rgb(94, 104, 103);}
+.fbutton{
+    background:none;
+    color:#2dcc70;
+    border:3px solid #2dcc70;
+    padding:10px 30px;
+    margin-top:25px;
+    font-weight: bold;
+}
+.fbutton:hover{background:#2dcc70;color:#0c5028;cursor:pointer;}
+/*framework*/
+
+/* first was 426*/
