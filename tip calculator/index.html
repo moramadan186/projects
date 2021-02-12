@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>bill counter</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+    <div class="container">
+         <header >
+             <h2>
+                 Tip calulator 
+             </h2>
+         </header>
+         <form>
+             <label>how much was your bill?</label>
+             <label for ="dollars">$</label>
+             <input value ="0" type="text" id="dollars" placeholder="Bill Amount ">
+             <label>How was your service ?</label>
+             <div class="selectContainer">
+                <select>
+                    <option value="0" selected disabled>Choose an option</option>
+                    <option value="30">30% Out Standing </option>
+                    <option value="20">20% Good </option>
+                    <option value="15">15% It was OK</option>
+                    <option value="10">10% Bad </option>
+                    <option value="5">5% terriple </option>
+                    
+                </select>
+            </div>
+             <label for="people">How many people are sharing the bill?</label>
+             <input value ="0" type="text" id="people">
+            <button type="button" id="calculateButton" onClick="finalCalc()">CALCULATE</button>
+            <div id="result" ></div>
+         </form>
+         
+
+    </div>
+    <script src="main.js"></script>
+    </body>
+</html>

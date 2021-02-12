@@ -1,0 +1,67 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgb(150, 0, 0) 50%)
+}
+
+.container{
+    background-color: white;
+    width:450px;
+    height:500px;
+    border-radius:10px;
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+    margin:14vh auto;
+}
+.container header{
+    background-color: rgb(63, 16, 16);
+    color:white;
+    padding :7px 0;
+    text-align: center;
+    border-radius:8px 8px 0 0;
+}
+.container header h2{
+    
+}
+.container form {
+    font-size:18px;
+    color:rgb(66, 66, 66);
+    font-weight: 550;
+    margin-left: 15px;
+}
+.container form label {
+    padding:10px 0px 10px 0px;
+    display:block;
+}
+.container form label:nth-of-type(2){
+    display: inline;
+}
+.container form input{
+    padding:7px;
+    box-shadow: .1px .1px 2px  black inset;
+    
+}
+.container form .selectContainer{width:250px;margin:0 auto ;}
+.container form .selectContainer select{
+    border-radius: 10px;
+    padding :10px;
+    text-align: center;
+}
+.container form .selectContainer select option{
+    padding:30px;
+
+}
+.container form button{
+    display:block;
+    padding:10px;
+    width:130px;
+    margin:30px auto;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:rgb(255, 155, 6);
+    
+}
