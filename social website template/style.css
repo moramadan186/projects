@@ -1,0 +1,197 @@
+body{ font-family:"Open Sans", sans-serif; padding:0; margin:0;}
+.container{
+    width:1340px;
+    margin:0 auto;
+}
+.clear{clear:both;}
+hr{ border-color:rgba(233, 222, 222, 0.205);}
+
+
+
+nav{background-color: #4d636f; color:#ffffff; overflow:hidden; position:fixed; width:100%; z-index:10;}
+nav .icons>div{padding:15px 27px; font-size: 20px; float:left;cursor: pointer; transition: all 0.5s ease;}
+nav .icons .first i{padding-right:8px;}
+nav .icons .last i{padding-right:3px;}
+nav .icons .last sup{
+    background-color:#4caf50; 
+    padding:2px 8px; 
+    border-radius:50%;
+    position: absolute;
+    top:3px;
+}
+nav .icons .first{background-color: #3a4b53; }
+nav .icons>div:hover,nav .im:hover{background-color: #fffff4ad;  color:black;}
+nav .im{float: right; padding:12px 27px; cursor: pointer; }
+nav .im img{width:25px;  border-radius: 50%;}
+.post {overflow: hidden; background-color: #f5f7f8; padding-top:80px; }
+.post .one,.post .two{
+    width:27%;
+    height:2000px; 
+    /* background-color: rgba(222, 184, 135, 0.438);  */
+    float:left; 
+}
+.post .two{width:18%;}
+.post .one #prof {
+    background-color:#ffffff; 
+    margin:0 15px 22px;
+    padding:5px 15px;
+    border-radius: 2%;
+    }
+.post .one #prof div{text-align: center; margin-bottom: 15px;}
+.post .one #prof div p{margin:5px 0 20px; font-weight:500; font-size: 21px;}
+.post .one #prof div img{width:115px;  border-radius: 50%;}
+
+.post .one #prof ul{list-style-type: none; padding:0; margin-bottom: 0;}
+.post .one #prof ul li{line-height:2.3; font-size: 15px;}
+.post .one #prof ul li i{padding-right: 17px;color:#607D8B;}
+
+.post .one #collect{  margin:0 15px 25px;background-color:#ffffff; }
+.post .one #collect details summary{background-color: #7d97a5; padding:10px 15px; color:whitesmoke; cursor: pointer;}
+.post .one #collect details summary:hover{background-color: #CCCCCC; color:#000000}
+.post .one #collect details summary i{margin-right: 20px;}
+.post .one #collect details p{padding:0px 10px}
+.post .one #collect details img{width:123px; padding: 10px 0 0 25px;}
+.post .one #collect details .fline{margin-top: 10px;}
+/* details summary::-webkit-details-marker {
+    background: red;
+    color: #fff;
+    font-size: 500%;
+  } */
+  summary::-webkit-details-marker {
+    display: none
+  }
+
+.post .one #interests{  margin:0 15px 25px;background-color:#ffffff;  padding:5px 0 5px 15px; border-radius: 2%;}
+.post .one #interests span{ color:#ffffff; padding:2px 8px; font-size:12px;}
+.post .one #interests>div{margin-bottom: 5px;}
+.post .one #interests .fspan span{background-color: #3A4B53;}
+.post .one #interests .sspan span{background-color:#607D8B}
+.post .one #interests .sspan .lspan {background-color:#BECBD2; margin-right: 4px; color:black;}
+.post .one #interests div:last-of-type span:first-of-type{background-color:#DFE5E8;  color:black;}
+.post .one #interests div:last-of-type span:last-child{background-color:#dfe5e870;color:black; }
+
+.post .one .hey{
+      margin:0 15px 25px;
+      background-color:#DFE5E8;
+      padding:0 0 5px 15px; 
+      border-radius: 5px;
+      border:1px solid rgba(0, 0, 0, 0.11);
+    }
+.post .one .hey h5{float: left; margin-bottom: 0;}
+.post .one .hey button{float:right; border:none; background-color:#BECBD2; padding:10px 15px; border-top-right-radius: 5px;}
+.post .one .hey button:hover{background-color:rgb(253, 254, 255); cursor: pointer;}
+.post .one .hey p{line-height: 1.4;}
+
+
+
+.post article{
+  width:55%;
+  height:2000px;
+  /* background-color: rgba(24, 16, 5, 0.288); */
+  float:left;}
+
+/* .post article .whatyouthink{padding:20px 10px; background-color:#ffffff ; border-radius: 1%;   padding:5px 15px;  margin:0 15px 15px 0; }
+.post article .whatyouthink p{color:rgb(172, 170, 170)}
+.post article .whatyouthink input{
+  width:96%; 
+  padding:10px; 
+  margin-bottom: 15px; 
+  border:1px solid rgb(192, 192, 192);
+  font-size: 15px;
+
+} */
+
+/*new*/
+.post article .whatyouthink{
+  overflow: hidden;
+  padding:20px 10px; 
+  background-color:#ffffff ;
+  border-radius: 1%;   
+  padding:5px 15px;  
+  margin:0 15px 15px 0; }
+  .post article .whatyouthink .forpadding{padding-top: 20px;}
+.post article .whatyouthink .forpadding img{width:10%; border-radius: 50%; float:left;}
+.post article .whatyouthink .forpadding input[type="text"]{
+  width:83%; 
+  padding:10px; 
+  margin: 15px 10px 20px;
+  border:1px solid rgb(192, 192, 192);
+  font-size: 15px;
+  float:left;
+  border-radius: 40px;
+  font-weight:500;
+} 
+.post article .whatyouthink hr{margin:20px 0 0;}
+.post article .whatyouthink button{
+  text-align: center;
+  width: 32%;
+  border:none;
+  background:none;
+  font-weight: 600;
+  color:rgb(83, 82, 82);
+  border-right:1px solid rgb(207, 207, 207);
+  padding:5px 10px;
+}
+.post article .whatyouthink button i{padding-right: 5px; font-size:18px ;}
+
+
+.post article .whatyouthink button:last-child{ border-right:none;}
+.post article .whatyouthink button:hover{background-color:#f3f3f3; ;}
+.post article .whatyouthink button i{color:#41B35D;}
+.post article .whatyouthink button i:hover{color:#06ff44;}
+.post article .whatyouthink button:first-of-type i{color:#fd4362;}
+.post article .whatyouthink button:first-of-type i:hover{color:#ff0026;}
+.post article .whatyouthink button:last-child i{color:#f5533d;}
+.post article .whatyouthink button:last-child i:hover{color:#ff1e00;}
+
+.post article .friend{padding:30px 10px; background-color:#ffffff ; border-radius: 1%;   padding:5px 15px;  margin:0 15px 15px 0; }
+.post article .friend .name{overflow: hidden; padding:20px 10px 30px;}
+.post article .friend .name img{width:60px; border-radius: 80%; float:left; transition:all 0.5s ease}
+.post article .friend .name img:hover{transform:scale(1.1,1.1);}
+.post article .friend .name h3{
+  /* display: inline; 
+  position: relative; 
+  top:-25px;  */
+  margin:15px 0;
+  padding-left:15px;
+   font-weight: lighter;
+   float:left;
+  }
+.post article .friend .name span{float:right; color:rgb(172, 170, 170); font-size:15px; padding-top:7px;}
+.post article .friend .content{padding-bottom: 13px;}
+.post article .friend .content p{font-size:15px; line-height: 1.4;}
+.post article .friend .content img{width:48.5%; transition:all 0.5s ease}
+.post article .friend .content img:hover{transform:scale(.98,.98);}
+.post article .friend .content img:last-child{ padding-left:13px}
+.post article .friend button{margin-bottom: 10px;}
+
+
+.post .two #upcome{text-align: center; background-color: #ffffff; border-radius: 2%; padding-bottom: 15px; margin:0 15px 15px 0;}
+.post .two #upcome p:first-of-type{margin: 0; padding:15px}
+.post .two #upcome button{border:none; padding:10px 80px; font-size: 16px; background: #dfe5e8; color:black}
+.post .two #upcome button:hover{background:#c4c4c4; cursor: pointer;}
+
+.post .two #request{text-align: center; background-color: #ffffff; border-radius: 2%; padding-bottom: 15px; margin:0 15px 15px 0;}
+.post .two #request button{border:none; font-size:16px; padding:10px 40px; background:#f88d86; color:rgb(255, 255, 255); margin:0}
+.post .two #request button:first-of-type{background-color:#93ce95;}
+.post .two #request button:hover{background:#fd3325; cursor: pointer;  color:black}
+.post .two #request button:first-of-type:hover{background:#27df2d;}
+
+
+
+
+footer{
+  background:#191e22;
+  overflow:hidden;
+  text-align: center;
+  color:rgb(202, 201, 201);
+  font-size: 25px;
+}
+footer .con{padding:40px;}  
+footer p{margin-bottom:5px; font-size:16px;}
+footer i{margin:0 4px 10px 0;}
+footer i:hover{color:#63a6c7;}
+
+.framebox{box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);}
+.framebutton{border:none; padding:10px 20px; font-size: 15px; background: none; color:gray;}
+.framebutton:hover{background:#f3f3f3; color:black; cursor:pointer; }

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.css">
+    <script></script>
+    <script src="https://kit.fontawesome.com/4a7b5fca02.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="icons" >
+            <div class="first"> <i class="fas fa-home"></i> <span>Logo</span> </div>
+            <div> <i class="fas fa-globe-africa"></i> </div> 
+            <div> <i class="fas fa-user"></i> </div>
+            <div> <i class="fas fa-envelope"></i> </div>
+            <div class="last"> <i class="fas fa-bell"></i> <Sup>3</Sup>  </div>
+            </div>
+            <div class="im"><img src="avatar2.png" ></div>
+        </div>
+    </nav>
+    <div class="post">
+        <div class="container">
+            <aside class="one">
+                <section class="framebox" id="prof">
+                    <div>
+                        <p>My Profile</p>
+                        <img src="avatar3.png">
+                    </div>
+                    <hr>
+                    <ul>
+                        <li> <i class="fas fa-pencil-alt"></i> Designer, UI</li>
+                        <li> <i class="fas fa-globe-africa"></i> London, UK</li>
+                        <li> <i class="fas fa-birthday-cake"></i> April 1, 1988</li>
+                    </ul>
+                </section>
+
+                <section class="framebox" id="collect">
+                    <details>
+                        <summary><i class="fas fa-users"></i>My Groups </summary>
+                          <p>Some text.. </p>
+                    </details>
+                    <details>
+                        <summary><i class="fas fa-calendar-alt"></i> My Events </summary>
+                          <p>Some other text..</p>
+                    </details>
+                    <details>
+                        <summary><i class="far fa-images"></i>My Photos</summary>
+                       <img class="fline" src="forest.jpg">
+                       <img class="fline" src="forest.jpg">
+                       <img src="nature.jpg">
+                       <img src="mountains.jpg">
+                       <img src="lights.jpg">
+                       <img src="snow.jpg">
+                    </details>
+                </section>
+
+
+                <section  class="framebox" id="interests">
+                    <p>Interests</p>
+                    <div class="fspan">
+                        <span>News</span> <span>W3Schools</span> <span>Labels</span> <span> Games</span> 
+                    </div>
+                    <div class="sspan">
+                        <span>Friends</span> <span>Games</span> <span>Friends</span>  <span class="lspan"> Food </span> <span class="lspan">Design</span> 
+                    </div>
+                    <div class="fspan">
+                        <span>Art</span> <span>Photos</span>
+                    </div>
+                   
+                </section>
+
+
+
+                <section class="hey framebox" id="hey" >
+                    <h5>Hey!</h5>
+                    <button onclick="myfun()"><i class="fas fa-times"></i></button>
+                    <div class="clear"></div>
+                    <p>People are looking at your profile. Find out who.</p>
+                    <script>
+                        function myfun(){
+                            document.getElementById("hey").style.display="none";
+                        }
+                    </script>
+                </section>
+        
+                
+                <section class="hey framebox" id="he">
+                    <h5>Alert!</h5>
+                    <button onclick="myfu()"><i class="fas fa-times"></i></button>
+                    <div class="clear"></div>
+                    <p>Your profile isn't complete , you can go setting and complete it to .</p>
+                    <script>
+                        function myfu(){
+                            document.getElementById("he").style.display="none";
+                        }
+                    </script>
+                </section>
+         
+             
+            </aside>
+            <article class="timeline">
+                <div class="whatyouthink  framebox ">
+                    <!-- <p>What's on your mind ? </p>
+                    <input type="text" value="Status: Feeling Blue"><br>
+                    <button class="framebutton"><i class="fas fa-pencil-alt"></i> Post</button> -->
+  
+                    <!--new-->
+                    <div class="forpadding">
+                        <img src="avatar3.png">
+                        <input type="text" value="What's on your mind?">
+                    </div>
+                    <div class="clear"></div>
+                    <hr>
+                    <button><i class="fas fa-video"></i> <span>Live</span></button>
+                    <button><i class="fas fa-images"></i> <span>Photo</span></button>
+                    <button><i  class="fas fa-map-marker-alt"></i> <span>Check In</span></button>
+                
+                </div>
+                <div class="friend framebox">
+                    <div class="name">
+                        <img src="avatar2.png"><h3>John Doe</h3>
+                        <span>1 min</span>
+                    </div>
+                    <hr>
+                    <div class="content">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                          <img src="mountains.jpg">
+                          <img src="lights.jpg">
+                    </div>
+                    <button id="likee" onclick="like()" class="framebutton" ><i class="fas fa-thumbs-up"></i>&nbsp;Like</button>
+                    <button class="framebutton"><i class="far fa-comment"></i>&nbsp; Comment</button>
+                    <script>
+                        function like(){
+                            document.getElementById("likee").style.color="blue";
+                           
+                        }
+                    </script>
+              
+                </div>
+
+
+                <div class="friend framebox">
+                    <div class="name">
+                        <img src="avatar5.png"><h3>Jane Doe</h3>
+                        <span>16 min</span>
+                    </div>
+                    <hr>
+                    <div class="content">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                
+                    </div>
+                    <button id="lik"  onclick="lik()"   class="framebutton"><i class="fas fa-thumbs-up"></i>&nbsp;Like</button>
+                    <button class="framebutton"><i class="far fa-comment"></i>&nbsp; Comment</button>
+                    <script>
+                        function lik(){
+                            document.getElementById("lik").style.color="blue";
+                        }
+                    </script>
+                </div>
+
+                <div class="friend framebox">
+                    <div class="name">
+                        <img src="avatar6.png"><h3>Angie Jane</h3>
+                        <span>32 min</span>
+                    </div>
+                    <hr>
+                    <div class="content">
+                          <p>Have you seen this?</p>
+                          <img src="nature.jpg" style="width:690px; padding:0;">
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <button id="li"  onclick="li()"   class="framebutton"><i class="fas fa-thumbs-up"></i>&nbsp;Like</button>
+                    <button class="framebutton"><i class="far fa-comment"></i>&nbsp; Comment</button>
+                    <script>
+                        function li(){
+                            document.getElementById("li").style.color="blue";
+                        }
+                    </script>
+                </div>
+             
+            </article>
+
+
+
+            <aside class="two">
+                <section class="framebox"  id="upcome"><p>Upcoming Events:</p>
+                    <img src="nature.jpg" style="width: 200px;">
+                    <p><b>Holiday</b></p>
+                    <p>Friday 15:00</p>
+                    <button>Info</button>
+                </section>
+                <section class="framebox"  id="request"><p>Friend Request</p>
+                    <img src="avatar6.png" style="width: 100px">
+                    <p style="margin-top: 0;">Jane Doe</p>
+                    <button><i class="fas fa-check"></i></button><button><i class="fas fa-times"></i></button>
+                </section>
+                
+                
+                <section class="framebox" id="upcome">
+                    <p style="padding:35px 30px 20px">ADS</p>
+                </section>
+
+
+                <section class="framebox" id="upcome">
+                    <p style="padding:45px 30px 30px; font-size: 30px;"><i class="fa fa-bug w3-xxlarge"></i></p>
+                </section>
+
+            </aside>
+
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="con">
+                <i class="fab fa-facebook-f fa-1x"></i>
+                <i class="fab fa-twitter fa-1x"></i>
+                <i class="fab fa-google-plus-g fa-1x"></i>
+                <i class="fab fa-snapchat-ghost fa-1x"></i>
+                <i class="fab fa-instagram fa-1x"></i>
+                <i class="fab fa-whatsapp fa-1x"></i>
+                <hr>
+                <p>COPYRIGHT &copy; 2020 M.RAMADAN BUILT WITH PASSION</p>
+           </div>
+        </div> 
+    </footer>
+   
+</body>
+</html>
