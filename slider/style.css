@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.pageContainer{
+    width: 800px;
+    margin: auto;
+ 
+}
+.pageContainer .imagesContainer{
+    position: relative;
+    height: 252px;
+}
+.imagesContainer .imageNumber {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background-color: rgba(0, 0, 0, .6);
+    color: #FFF;
+    padding: 5px 10px;
+    font-size: 20px;
+    z-index: 2;
+    border-radius: 6px;
+  }
+.pageContainer .imagesContainer img{
+    position:absolute;
+    opacity: 0;
+    transition: opacity 1s;
+    z-index: 1;
+}
+.pageContainer .imagesContainer img.active{
+    opacity: 1;
+}
+
+.pageContainer .controlsContainer{
+    overflow: hidden;
+}
+.pageContainer .controlsContainer .previous,
+.pageContainer .controlsContainer .next {
+  background-color: #009688;
+  color: #FFF;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 5px;
+  user-select: none;
+  width: 20%;
+}
+.pageContainer .controlsContainer .previous{float: left;}
+.pageContainer .controlsContainer .next {float: right;}
+.pageContainer .controlsContainer .previous.disabled,
+.pageContainer .controlsContainer .next.disabled{
+    background-color: rgba(0, 150, 136, 0.5);
+    cursor: no-drop;
+}
+
+.pageContainer .controlsContainer .indicators{
+    width: 60%;
+    float: left;
+}
+.pageContainer .controlsContainer .indicators ul{
+    list-style: none;
+    text-align: center;
+
+}
+.pageContainer .controlsContainer .indicators ul li{
+    display: inline-block;
+    margin:0 5px 5px;
+    padding: 5px 10px;
+    background-color: rgb(233, 233, 233);
+    border-radius: 5px;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+}
+.pageContainer .controlsContainer .indicators ul li.active {
+  background-color: #869b99;
+  color: #FFF;
+}
